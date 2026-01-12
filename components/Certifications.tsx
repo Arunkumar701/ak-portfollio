@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { CERTIFICATIONS } from '../constants';
+import SecureImage from './SecureImage';
 
 const Certifications: React.FC = () => {
   const [selectedCert, setSelectedCert] = useState<typeof CERTIFICATIONS[0] | null>(null);
@@ -92,10 +93,10 @@ const Certifications: React.FC = () => {
 
               {/* Certificate Image */}
               <div className="bg-gray-950 rounded-xl p-8 mb-8 flex items-center justify-center">
-                <img 
-                  src={selectedCert.image} 
-                  alt={selectedCert.name} 
-                  className="max-w-full max-h-96 object-contain"
+                <SecureImage
+                  src={selectedCert.image}
+                  alt={selectedCert.name}
+                  className="max-w-full max-h-96 object-contain"  
                 />
               </div>
 
@@ -121,7 +122,7 @@ const Certifications: React.FC = () => {
                   
                   <div>
                     <p className="text-gray-400 text-sm font-mono uppercase tracking-wider mb-2">Credential ID</p>
-                    <p className="text-white font-mono">CERT-{Math.random().toString(36).substring(2, 10).toUpperCase()}</p>
+                    <p className="text-white font-mono">{selectedCert.credentialId}</p>
                   </div>
                 </div>
               </div>

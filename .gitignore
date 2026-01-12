@@ -1,0 +1,54 @@
+# Node modules (dependencies – huge & risky)
+node_modules/
+
+# Production / build files
+build/
+dist/
+
+# Environment variables (VERY IMPORTANT – secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Lock files (optional – depends on team policy)
+# If solo project -> ignore
+# If team project -> DO NOT ignore
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs (can leak info)
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Cache & temp files
+.cache/
+.eslintcache
+.tmp/
+
+# Coverage reports
+coverage/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional: Test artifacts
+cypress/videos/
+cypress/screenshots/

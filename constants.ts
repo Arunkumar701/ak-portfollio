@@ -185,11 +185,13 @@ export const CERTIFICATIONS = [
     provider: "Ec-Council",
     duration: "May 2025 - Jun 2026",
     image: "/cert/ceh_ec_council.png",
+    credentialId: "ECC7451390862"
   },
   {
     name: "Cybersecurity Analyst",
     provider: "HackUp Technology",
     duration: "Feb 2025 - Oct 2025",
-    image: "/cert/hackup_tehno.png"
+    image: "/cert/hackup_tehno.png",
+    credentialId: "HTIP20251328"
   }
 ];
