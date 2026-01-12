@@ -52,3 +52,9 @@ pids
 # Optional: Test artifacts
 cypress/videos/
 cypress/screenshots/
+
+# Firebase
+.firebase/
+firebase-debug.log
+.firebaserc
+

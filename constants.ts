@@ -26,6 +26,7 @@ export const SKILLS: Skill[] = [
   { name: "Password Cracking", category: "Security" },
   { name: "SQLi, XSS, CSRF", category: "Security" },
   { name: "CTF Experience (TryHackMe, HackTheBox)", category: "Security" },
+  { name: "Bandit", category: "Security" },
   // Tools (Security focused)
   { name: "Nmap", category: "Tools" },
   { name: "Burp Suite", category: "Tools" },
@@ -42,6 +43,7 @@ export const SKILLS: Skill[] = [
   { name: "JavaScript", category: "Backend" },
   { name: "SQL", category: "Backend" },
   { name: "Bash", category: "Backend" },
+  { name: "Node.js", category: "Backend" },
   // Developer Tools
   { name: "Git", category: "Tools" },
   { name: "VS Code", category: "Tools" },
