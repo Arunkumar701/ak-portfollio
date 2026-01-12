@@ -6,7 +6,21 @@ export default defineConfig(() => {
   return {
     server: {
       port: 3001,
-      host: '0.0.0.0'
+      host: '0.0.0.0',
+      headers: {
+        'Content-Security-Policy': "default-src 'self'; script-src 'self' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-ancestors 'none';",
+        'X-Frame-Options': 'SAMEORIGIN',
+        'Permissions-Policy':
+          "camera=(), microphone=(), geolocation=(), payment=()"
+      }
+    },
+    preview: {
+      headers: {
+        'Content-Security-Policy': "default-src 'self'; script-src 'self' https://cdn.tailwindcss.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; img-src 'self' data:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-ancestors 'none';",
+        'X-Frame-Options': 'SAMEORIGIN',
+        'Permissions-Policy':
+          "camera=(), microphone=(), geolocation=(), payment=()"
+      }
     },
     base: './',
     optimizeDeps: {
