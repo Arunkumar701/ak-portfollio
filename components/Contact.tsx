@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
               <span className="text-xl text-white font-mono break-all">{PERSONAL_INFO.email}</span>
            </a>
            <div className="flex flex-col p-8 bg-gray-900/30 border border-gray-800 rounded-2xl">
-              <span className="text-[10px] font-mono text-blue-500 uppercase tracking-widest mb-4 font-bold">Call_Sign</span>
+              <span className="text-[10px] font-mono text-blue-500 uppercase tracking-widest mb-4 font-bold">Mobile_Call</span>
               <span className="text-xl text-white font-mono">{PERSONAL_INFO.phone}</span>
            </div>
         </div>
