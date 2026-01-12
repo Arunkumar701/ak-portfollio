@@ -36,7 +36,7 @@ const Certifications: React.FC = () => {
                 <div className="absolute top-2 right-2 font-mono text-[8px] text-gray-700 select-none">
                   {Math.random().toString(36).substring(7).toUpperCase()}
                 </div>
-              </div>
+              </div>  
               
               <div className="p-6">
                 <p className="text-green-500 font-mono text-[10px] uppercase tracking-widest mb-1 font-bold">{cert.duration}</p>
