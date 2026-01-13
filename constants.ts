@@ -182,18 +182,42 @@ export const ACADEMICS = [
 ];
 
 export const CERTIFICATIONS = [
+  // {
+  //   name: "Certified Ethical Hacker (CEH)",
+  //   provider: "Ec-Council",
+  //   duration: "May 2025 - Jun 2026",
+  //   image: "/cert/ceh_ec_council.png",
+  //   credentialId: "ECC7451390862"
+  // },
+  // {
+  //   name: "Cybersecurity Analyst",
+  //   provider: "HackUp Technology",
+  //   duration: "Feb 2025 - Oct 2025",
+  //   image: "/cert/hackup_tehno.png",
+  //   credentialId: "HTIP20251328"
+  // }
   {
     name: "Certified Ethical Hacker (CEH)",
     provider: "Ec-Council",
     duration: "May 2025 - Jun 2026",
     image: "/cert/ceh_ec_council.png",
-    credentialId: "ECC7451390862"
+    credentialId: 'ECC7451390862',
+    discription: 'This certification validates expertise in cybersecurity principles, ethical hacking methodologies, and security best practices.Demonstrates practical skills in identifying vulnerabilities, implementing robust security measures, and maintaining secure systems in enterprise environments. The credential confirms proficiency in industry-standard tools and techniques used by cybersecurity professionals worldwide.',
   },
   {
     name: "Cybersecurity Analyst",
     provider: "HackUp Technology",
     duration: "Feb 2025 - Oct 2025",
     image: "/cert/hackup_tehno.png",
-    credentialId: "HTIP20251328"
-  }
+    credentialId: 'U72900TZ2020PTC034653',
+    discription: 'This certification validates expertise in cybersecurity principles, ethical hacking methodologies, and security best practices.Demonstrates practical skills in identifying vulnerabilities, implementing robust security measures, and maintaining secure systems in enterprise environments. The credential confirms proficiency in industry-standard tools and techniques used by cybersecurity professionals worldwide.',
+  }, 
+  {
+    name: "AI-For-India Event",
+    provider: "GUVI (IIT-M & IIM-A incubated",
+    duration: "Apr 2021 - current",
+    image: "/cert/guvi_certification.png",
+    credentialId: '80i4N6qTx13y68921',
+    discription: 'Completed a hands-on project titled Build a Face Recognition Application using Python as part of the AI-For-India Event conducted by GUVI.This certification demonstrates practical knowledge in Python programming, computer vision concepts, and face recognition techniques, along with exposure to real-world Artificial Intelligence applications.',
+  },
 ];
