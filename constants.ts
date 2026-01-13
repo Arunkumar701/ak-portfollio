@@ -215,7 +215,7 @@ export const CERTIFICATIONS = [
   {
     name: "AI-For-India Event",
     provider: "GUVI (IIT-M & IIM-A incubated",
-    duration: "Apr 2021 - current",
+    duration: "Apr 2021 - Present",
     image: "/cert/guvi_certification.png",
     credentialId: '80i4N6qTx13y68921',
     discription: 'Completed a hands-on project titled Build a Face Recognition Application using Python as part of the AI-For-India Event conducted by GUVI.This certification demonstrates practical knowledge in Python programming, computer vision concepts, and face recognition techniques, along with exposure to real-world Artificial Intelligence applications.',
